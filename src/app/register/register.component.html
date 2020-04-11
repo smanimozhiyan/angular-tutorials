@@ -1,0 +1,18 @@
+<div class="div-register">
+    <form class="form-register">
+        <h2>Please enter below detials</h2>
+      <label>Name</label><br />
+      <input type="text" value="{{ name }}" />
+      <br />
+      <label style="text-align: right;">Date of Birth</label><br />
+      <input type="text" value={{dob}} /><br />
+      <br />
+      <label style="text-align: right;">Email</label><br />
+      <input type="text" value={{email}} /><br />
+      <br />
+      <button (click)="submit()">Submit</button>
+      <button (click)="cancel()" style="margin-left: 20px">cancel</button>
+      <br />
+      <br />
+    </form>
+  </div>

@@ -1,0 +1,17 @@
+<div class="div-login">
+  <form class="form-login">
+    <label>User Name</label><br />
+    <input [(ngModel)]=userName type="text" name="userName"/>
+    <br />
+    <label style="text-align: right;">Password</label><br />
+    <input type="password" [(ngModel)]=password name="password"/><br />
+    <br />
+    <button (click)="login()" style="margin-right: 20px">Sign in</button>
+    <button (click)="register()">register</button>
+    <button (click)="fotgetPassword()" style="margin-left: 20px">forgot password</button>
+
+
+    <br />
+    <br />
+  </form>
+</div>
